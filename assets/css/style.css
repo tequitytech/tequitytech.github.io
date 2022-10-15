@@ -247,6 +247,10 @@ body {
 .service-build-lft-con img,
 .team-detail-con img {
   transition: transform ease-in-out 0.5s;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  width: 442px;
 }
 .sloution-box-lft-content:hover,
 .banner-right-con img:hover,
@@ -995,3 +999,15 @@ body {
   border-radius: 30px;
 }
 /****** modal css ********/
+#digitial-solutions-image {
+  width: 400px;
+  height: 405px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+#we-love-building-image {
+  width: 400px;
+  border-radius: 200px;
+  /* height: 405px; */
+}
